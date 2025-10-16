@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class EntregaMapper {
 
+    //
     public EntregaDTO toDTO(Entrega entidad) {
         if (entidad == null) return null;
 
