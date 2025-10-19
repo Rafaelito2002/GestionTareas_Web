@@ -12,6 +12,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/tareas")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class TareaController {
 
     private final ITareaService service;

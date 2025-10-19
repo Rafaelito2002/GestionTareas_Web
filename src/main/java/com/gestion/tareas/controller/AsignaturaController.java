@@ -12,6 +12,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/asignaturas")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class AsignaturaController {
 
     private final IAsignaturaService service;
